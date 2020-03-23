@@ -26,23 +26,32 @@ import com.example.android.navigation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var drawableLayout: DrawerLayout
+    private lateinit var drawerLayout: DrawerLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         @Suppress("UNUSED_VARIABLE")
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
 
-        drawableLayout = binding.drawerLayout
+        drawerLayout = binding.drawerLayout
 
         val navigationController = findNavController(R.id.myNavHostFragment)
 
-        NavigationUI.setupActionBarWithNavController(this, navigationController, drawableLayout)
+        navigationController.addOnDestinationChangedListener { controller, destination, arguments ->
+            if(destination.id == controller.graph.startDestination){
+                drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
+            }
+            else{
+                drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
+            }
+        }
+
+        NavigationUI.setupActionBarWithNavController(this, navigationController, drawerLayout)
         NavigationUI.setupWithNavController(binding.navView, navigationController)
     }
 
     override fun onSupportNavigateUp(): Boolean {
         val navigationController = findNavController(R.id.myNavHostFragment)
-        return NavigationUI.navigateUp(navigationController, drawableLayout)
+        return NavigationUI.navigateUp(navigationController, drawerLayout)
     }
 }

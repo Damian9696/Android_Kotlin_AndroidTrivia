@@ -15,12 +15,12 @@ Each screen is implemented as a Fragment. The app navigates using buttons, the A
 
 ## Screenshots
 ![Screenshot1](screenshots/androidtrivia (1).jpg)
-![Screenshot1](screenshots/androidtrivia (2).jpg)
-![Screenshot1](screenshots/androidtrivia (3).jpg)
-![Screenshot1](screenshots/androidtrivia (4).jpg)
-![Screenshot1](screenshots/androidtrivia (5).jpg)
-![Screenshot1](screenshots/androidtrivia (6).jpg)
-![Screenshot1](screenshots/androidtrivia (7).jpg)
+![Screenshot2](screenshots/androidtrivia (2).jpg)
+![Screenshot3](screenshots/androidtrivia (3).jpg)
+![Screenshot4](screenshots/androidtrivia (4).jpg)
+![Screenshot5](screenshots/androidtrivia (5).jpg)
+![Screenshot6](screenshots/androidtrivia (6).jpg)
+![Screenshot7](screenshots/androidtrivia (7).jpg)
 
 
 ## Technologies

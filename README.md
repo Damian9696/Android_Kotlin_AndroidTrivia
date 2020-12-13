@@ -14,13 +14,13 @@ The Android Trivia application is an application that asks the user trivia quest
 Each screen is implemented as a Fragment. The app navigates using buttons, the Action Bar, and the Navigation Drawer.
 
 ## Screenshots
-![Screenshot1](screenshots/androidtrivia (1).jpg)
-![Screenshot2](screenshots/androidtrivia (2).jpg)
-![Screenshot3](screenshots/androidtrivia (3).jpg)
-![Screenshot4](screenshots/androidtrivia (4).jpg)
-![Screenshot5](screenshots/androidtrivia (5).jpg)
-![Screenshot6](screenshots/androidtrivia (6).jpg)
-![Screenshot7](screenshots/androidtrivia (7).jpg)
+![Screenshot1](screenshots/androidtrivia1.jpg)
+![Screenshot2](screenshots/androidtrivia2.jpg)
+![Screenshot3](screenshots/androidtrivia3.jpg)
+![Screenshot4](screenshots/androidtrivia4.jpg)
+![Screenshot5](screenshots/androidtrivia5.jpg)
+![Screenshot6](screenshots/androidtrivia6.jpg)
+![Screenshot7](screenshots/androidtrivia7.jpg)
 
 
 ## Technologies
